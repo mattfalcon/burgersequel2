@@ -1,0 +1,33 @@
+.jumbotron{
+    background-color: #6f5499;
+    color: #cdbfe3;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #0275d8
+}
+
+.intro{
+    background-color: #6f5499;
+    color: #cdbfe3;
+    width: 400px;
+}
+
+img{
+    vertical-align: middle;
+    width: 200px;
+    padding: 10px
+}
+
+h1{
+    font-family: Barrio;
+    font-size: 52px;
+}
+
+body{
+    background-color: #f9f5d2;
+    background-image: url("/assets/img/restaurant.png")
+}
