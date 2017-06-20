@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "oldmanlogan11#",
-    "database": "sequelburger_db",
+    "database": "seqBurger_DB",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

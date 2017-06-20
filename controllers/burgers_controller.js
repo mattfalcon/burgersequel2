@@ -22,13 +22,26 @@ router.post("/burgers/create", function (req, res) {
     burger_name: req.body.burger_name
   })
   .then(function(dbBurger){
-    console.log(result);
+    console.log(dbBurger);
     res.redirect("/")
   })
 });
 
-
-
+router.put("/burgers/update", function(req, res) {
+  db.Burger.update(
+    {
+      devoured: true
+    },
+    {
+      where: {
+        id: req.body.burger_id
+  }
+    }
+    ).then(function(dbBurger){
+      console.log(dbBurger);
+      res.redirect("/");
+    });
+});
 
 
 module.exports = router;
